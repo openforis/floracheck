@@ -55,9 +55,13 @@ Add dependencies to DESCRIPTION:
 
 ```{r}
 usethis::use_package("dplyr")
-
 ```
 
+Add data or raw data to the app
+```{r}
+usethis::use_data_raw()
+usethis::use_data(bb$LCVP)
+```
 
 
 ## Run all the time:
